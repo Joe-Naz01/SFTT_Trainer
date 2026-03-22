@@ -1,0 +1,20 @@
+# Core Frameworks
+torch>=2.1.0
+transformers>=5.3.0
+datasets>=4.0.0
+accelerate>=1.13.0
+
+# Fine-Tuning & Optimization
+trl>=0.29.1
+bitsandbytes>=0.42.0
+torchtune
+
+# Data Processing & Utilities
+pandas>=2.2.2
+PyYAML>=6.0.3
+numpy>=2.0.2
+
+# Evaluation & UI
+evaluate
+rouge_score
+ipywidgets
