@@ -1,4 +1,4 @@
-# Healthcare Chatbot: Fine-Tuning Llama for Medical QA 🩺
+# Healthcare Chatbot: Fine-Tuning Llama for Medical QA 
 This repository contains a comprehensive pipeline for fine-tuning Large Language Models (LLMs) to optimize their performance for specialized healthcare applications. The project focuses on transforming a base Llama model into a specialized medical assistant capable of classifying patient intent and answering clinical queries.
 
 ## Project Overview
@@ -34,7 +34,7 @@ Prompt Engineering: Formatting raw medical data into instruction-based prompts f
 It is recommended to use a Conda environment to manage the specific versions of Torch and Transformers required:
 
 ```bash
-git clone https://github.com/Joe-Naz01/SFTT_Trainer.git\
+git clone https://github.com/Joe-Naz01/SFTT_Trainer.git
 cd SFTT_Trainer
 
 conda create -n llama_ft python=3.10 -y
