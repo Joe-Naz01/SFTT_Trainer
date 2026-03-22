@@ -1,0 +1,46 @@
+{
+  "builder_name": "csv",
+  "citation": "",
+  "config_name": "default",
+  "dataset_name": "med_quad-medical_qn_a_dataset",
+  "dataset_size": 22581626,
+  "description": "",
+  "download_checksums": {
+    "hf://datasets/keivalya/MedQuad-MedicalQnADataset@5b0961fbaa6d7f9c344c5d59c29943fb900c2eca/medDataset_processed.csv": {
+      "num_bytes": 22466890,
+      "checksum": null
+    }
+  },
+  "download_size": 22466890,
+  "features": {
+    "qtype": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "Question": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "Answer": {
+      "dtype": "string",
+      "_type": "Value"
+    }
+  },
+  "homepage": "",
+  "license": "",
+  "size_in_bytes": 45048516,
+  "splits": {
+    "train": {
+      "name": "train",
+      "num_bytes": 22581626,
+      "num_examples": 16407,
+      "dataset_name": "med_quad-medical_qn_a_dataset"
+    }
+  },
+  "version": {
+    "version_str": "0.0.0",
+    "major": 0,
+    "minor": 0,
+    "patch": 0
+  }
+}
