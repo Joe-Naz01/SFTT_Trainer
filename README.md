@@ -5,22 +5,19 @@ This repository contains a comprehensive pipeline for fine-tuning Large Language
 The core objective is to build a training and evaluation pipeline for a healthcare chatbot used by hospitals for patient onboarding. By fine-tuning Llama models on domain-specific data, we bridge the gap between general-purpose language understanding and specialized medical knowledge.
 
 ## Key Features
-- **Medical Data Engineering: Automated pipeline to load and preprocess the MedQuad-MedicalQnADataset.
+- Medical Data Engineering: Automated pipeline to load and preprocess the MedQuad-MedicalQnADataset.
 
-- **Supervised Fine-Tuning (SFT): Implementation of Hugging Face’s SFTTrainer to run efficient fine-tuning loops.
+- Supervised Fine-Tuning (SFT): Implementation of Hugging Face’s SFTTrainer to run efficient fine-tuning loops.
 
-- **Recipe-Based Configuration: Utilizing TorchTune for streamlined, recipe-based task configuration and data preparation.
+- Recipe-Based Configuration: Utilizing TorchTune for streamlined, recipe-based task configuration and data preparation.
 
-- **Memory Efficiency: Application of quantization and parameter-efficient techniques (like LoRA) to run large models on consumer-grade hardware.
+- Memory Efficiency: Application of quantization and parameter-efficient techniques (like LoRA) to run large models on consumer-grade hardware.
 
 ##  Tech Stack
-**Language: Python
-
-**Core Libraries: torch, torchtune, transformers (Hugging Face)
-
-**Data Handling: datasets, pandas, PyYAML
-
-**Optimization: bitsandbytes (for 8-bit quantization)
+Language: Python
+Core Libraries: torch, torchtune, transformers (Hugging Face)
+Data Handling: datasets, pandas, PyYAML
+Optimization: bitsandbytes (for 8-bit quantization)
 
 ## Dataset: MedQuad
 The model is trained on the MedQuad-MedicalQnADataset, a high-quality collection of medical question-answer pairs. The pipeline includes:
@@ -33,8 +30,7 @@ Prompt Engineering: Formatting raw medical data into instruction-based prompts f
 1. Environment Configuration
 It is recommended to use a Conda environment to manage the specific versions of Torch and Transformers required:
 
-Bash
-''' 
+'''bash 
 git clone https://github.com/Joe-Naz01/SFTT_Trainer.git\
 cd SFTT_Trainer
 
