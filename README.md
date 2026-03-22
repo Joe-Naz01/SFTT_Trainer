@@ -15,8 +15,11 @@ The core objective is to build a training and evaluation pipeline for a healthca
 
 ##  Tech Stack
 Language: Python
+
 Core Libraries: torch, torchtune, transformers (Hugging Face)
+
 Data Handling: datasets, pandas, PyYAML
+
 Optimization: bitsandbytes (for 8-bit quantization)
 
 ## Dataset: MedQuad
@@ -30,7 +33,7 @@ Prompt Engineering: Formatting raw medical data into instruction-based prompts f
 1. Environment Configuration
 It is recommended to use a Conda environment to manage the specific versions of Torch and Transformers required:
 
-'''bash 
+```bash
 git clone https://github.com/Joe-Naz01/SFTT_Trainer.git\
 cd SFTT_Trainer
 
@@ -38,11 +41,12 @@ conda create -n llama_ft python=3.10 -y
 conda activate llama_ft
 pip install -r requirements.txt
 jupyter notebook
-'''
+```
+
 
 ## Skills Demonstrated
-**LLM Orchestration: Building end-to-end pipelines from raw data to model evaluation.
+LLM Orchestration: Building end-to-end pipelines from raw data to model evaluation.
 
-**Resource Management: Implementing memory-efficient training strategies for large-scale models.
+Resource Management: Implementing memory-efficient training strategies for large-scale models.
 
-**Domain Adaptation: Specializing general AI models for high-stakes industries like healthcare.
+Domain Adaptation: Specializing general AI models for high-stakes industries like healthcare.
